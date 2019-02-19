@@ -1,0 +1,34 @@
+menu
+
+
+var regresar = falso ;
+var menu;
+leer primera -= scanner
+
+declaramos un condicion 
+
+	mientras (!regresar) 
+
+	   escribir "HOLA, TE OFRECEMOS UN CATALOGO DE JUEGOS";
+	   escribir "Ahorcado...................(1)";
+	   escribir("Poker .....................(2)";
+           escribir("Basquett...................(3)";
+		leer menu;
+
+
+	si menu es (menu)
+	
+		caso 1 
+			adivina( juego del ahorcado)
+
+		caso 2 
+			poker
+
+		caso 3 
+		
+			basquett
+
+
+fin
+
+		  

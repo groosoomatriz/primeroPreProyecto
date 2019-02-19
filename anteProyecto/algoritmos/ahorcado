@@ -1,0 +1,78 @@
+// Adivinar palabra(Juego de el ahorcado)
+
+
+
+Cadena palabras;
+palabras = ingenieria,mate,sistemas;
+var posicionAletoria = "palabras"; usamos una funcion que escoja en aleatorio las palabras  y otra para determinar el tamanio de nuestro arreglo 
+Cadena palabra; = palabra[posicionAletoria];
+contador=0;
+
+    Escribir "Bienvenido a este juego"
+    Escribir "Tienes 10 oportunidades para ganar ADELANTE"
+    Escribir "De lo contrario perderas"
+    Escribir"    _  _");
+    Escribir"   (.)(.)";
+    Escribir"  /  ()  \\ ";
+    Escribir" _\\ '--' /_ ";
+    Escribir"{ '-`\"\"\"\"`-' } ";
+    Escribir"`\"/      \\\"` ";
+    Escribir" \\      / ";
+    Escribir" _/  /\\  \\_";
+    Escribir" {   /  \\   }";
+    Escribir"`\"`    `\"`";
+
+
+    Escribir"**************************";
+    Escribir"Intrucciones: Comienzas introduciendo cualquier letra";
+    Escribir"**************************";
+    Escribir"Pilas... dale cualaquiera  ";
+
+
+
+    	char [] letras = palabra;
+        char [] letrasConGuiones = new char[letras.length];
+
+		Para entero i = 0; i< letra(con el comando que nos cuenta el tamanio del arrreglo);
+            	Incremento de 1 en "i"
+                Llamar letrasConGuiones[i]='-';
+        
+       
+       Fin para
+       Escribir  letrasConGuiones;
+       
+
+       boleano Hemos hemosGanado = falso;
+       mientras hemosGanado==falso
+           
+
+            leer  lector = nuevo Scanner
+                char letraIntroducida = lector.next().charAt(0);
+        
+        Para entero i=0; i< letras.length;
+        Incremento de 1 en i; 
+           Si letras[i] == letraIntroducida
+		Asignara  letrasConGuiones[i]=letraIntroducida; 
+
+		
+		contador ++; 
+		si (cantador==10)
+		escribir"lo sentimos tus oportunidades se acabaron "; 
+		terminar juego ;
+
+		
+   
+                   
+        
+
+		 Si comparamos los arreglos(letras y                                  							letrasConGuiones)				
+                    Escribir"******EXITO******";
+             	   escrbir"tus oportunidades fueron " +contador; 
+			terminar juego;
+  
+                   Escribir letrasConGuiones;
+fin mientras
+
+fin
+
+
